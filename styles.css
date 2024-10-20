@@ -1,0 +1,79 @@
+body{
+    background-color: burlywood;
+    margin: 0px;
+    background-position: 50%;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+}
+img{
+    max-width: 100%;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+    flex-wrap: wrap;
+}
+.logo{width: 82px;}
+.main-navegation{background-color: red;}
+.main-navegation a{
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px;
+}
+.main-navegation a:hover{
+    background-color: orangered;
+    color: white;
+}
+.banner{
+    min-width: 30vh;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.banner-button {
+    display: block;
+    background-color: burlywood;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 2em auto;
+    gap: 20px;
+}
+.card{
+    background-color: bisque;
+    flex: 1;
+}
+.card img{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.social a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.copyright  {
+    margin: 0px;
+    color: white;
+}
